@@ -4,7 +4,7 @@ import { Input } from "./Input";
 
 export function SignUp() {
     return (
-        <div style={{ width: "300px", margin: "auto" }}>
+        <div className="Forms">
             <h1>Sign Up</h1>
 
             <form>
@@ -28,7 +28,9 @@ export function SignUp() {
                     text="Login"
                     onClick={() => alert("Input clicked")}
                 />
-                <p>Already have an account?</p><a href="">Login</a>
+                <p>
+                    Already have an account? <a href=""> Login </a>
+                </p>
             </form>
         </div>
     )

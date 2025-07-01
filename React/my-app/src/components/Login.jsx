@@ -2,8 +2,8 @@ import { Button } from "./Button";
 import { Input } from "./Input";
 
 export function Login() {
-    return (
-          <div style={{ width: "300px", margin: "auto" }}>
+  return (
+    <div className="Forms">
       <h1>Login</h1>
 
       <form>
@@ -23,8 +23,10 @@ export function Login() {
           text="Login"
           onClick={() => alert("Input clicked")}
         />
-        <p>Don't have an account?</p><a href="">Signup</a>
+        <p>
+          Don't have an account? <a href="">Signup</a>
+        </p>
       </form>
     </div>
-    )
+  )
 }

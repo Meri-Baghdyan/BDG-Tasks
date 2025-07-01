@@ -4,7 +4,7 @@ import { SignUp } from "./components/SignUp";
 
 function App() {
   return (
-    <div>
+    <div className='auth-wrapper'>
       <Login/>
       <SignUp/>
     </div>
