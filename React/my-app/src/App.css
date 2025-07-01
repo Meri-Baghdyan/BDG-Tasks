@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -42,7 +42,7 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
 
 .auth-button {
   border: 1px solid;
@@ -52,9 +52,23 @@
   color: white;
 }
 
-/* input {
-  border: 1px solid #888; 
-  padding: 0.5rem 1rem;
-  margin: 0.5rem;
+.auth-input {
+  border: 1px solid #888;
   color: #888;
-} */
+  border-radius: 8px;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+div {
+  margin-top: 20px;
+  font-size: 24px;
+}

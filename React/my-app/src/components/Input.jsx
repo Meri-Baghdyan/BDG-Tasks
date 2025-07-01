@@ -1,5 +1,12 @@
-export function Input({text, placeholder}) {
+export function Input({ placeholder, type="text", name }) {
     return (
-        <Input>{text}{placeholder}</Input>
+            <input 
+            className="auth-input" 
+            type={type} 
+            placeholder={placeholder} 
+            name="name"
+            />
     );
 }
+
+
